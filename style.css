@@ -1,0 +1,90 @@
+/* universal */
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+/* navbar font style  */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+.inter-tight-navbar-font {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+/* ** website font style ** */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+.noto-serif-font-styles {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* **shared styles** */
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* primary color  */
+.color-black {
+  color: #000000;
+}
+.color-og {
+  color: #e95a08;
+}
+.color-2 {
+  color: #8987a1;
+}
+/* nav color */
+.nv-color-1 {
+  /* color: #252432; */
+  color: rgba(37, 36, 50, 1);
+}
+
+.nav-color-3 {
+  color: #000000;
+}
+/* nav font */
+.nav-font {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.nav-font-1 {
+  font-weight: 400px;
+  font-size: 0.8rem;
+}
+/* **navbar style** */
+.nav-link a {
+  margin-right: 45px;
+  text-decoration: none;
+}
+.nav-link a:last-child {
+  margin-right: 0;
+}
+/* web-main-style */
+.fonts {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.banner-content-color {
+  color: rgba(0, 0, 0, 0.5);
+}
+.banner-content {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+/* **card-styles** */
+.card-heading {
+  text-align: center;
+}
+.card-heading-description {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-left: 200px;
+  margin-right: 200px;
+}
