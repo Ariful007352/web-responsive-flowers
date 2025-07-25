@@ -307,3 +307,61 @@
 .footer-icon img {
   margin-right: 20px;
 }
+/* responsive unite  */
+@media screen and (max-width: 576px) {
+  .display-flex {
+    flex-direction: row;
+  }
+  .nav-item {
+    display: none;
+  }
+  .cart-item {
+    display: inline-block;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-heading-description {
+    display: inline;
+  }
+  .trusted-badge-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .badge-image {
+    display: none;
+  }
+  .main-image {
+    display: inline-block;
+  }
+  .latest-deal {
+    display: inline;
+  }
+  .latest-deal-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .section-title {
+    flex-direction: row;
+    gap: 10px;
+  }
+  .form input[type="Email"] {
+    width: 100%;
+  }
+  .join-button {
+    width: 100%;
+  }
+  .footer-style,
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+}
