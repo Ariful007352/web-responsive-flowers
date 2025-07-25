@@ -170,4 +170,140 @@
   text-align: center;
   margin-left: 276px;
   margin-right: 276px;
+  margin-top: 50px;
+}
+/* latest deals image */
+.section-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.latest-deal-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 50px;
+}
+/* .latest-deal-section a {
+  text-decoration: underline;
+} */
+.img-1 {
+  background-image: url(./assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  width: 367px;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+  color: #ffffff;
+}
+
+.heading-font {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.img-2 {
+  background-image: url(./assets/deal-ana.png);
+  background-repeat: no-repeat;
+  width: 367px;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+  color: #ffffff;
+}
+.image-font {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.img-3 {
+  background-image: url(./assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  width: 753px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2.5rem;
+  border-radius: 22px;
+}
+.img-font {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+/* join section  */
+.join-section {
+  background-image: url(./assets/news-letter-bg.png);
+  height: 533px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  padding: 200px;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.form input {
+  width: 644px;
+  height: 50px;
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.join-button {
+  width: 186px;
+  height: 50px;
+  color: #ffffff;
+  background-color: #e95a08;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+/* footer section  */
+.footer-style {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding-top: 10px;
+}
+.footer-links {
+  display: flex;
+  gap: 100px;
+}
+.footer-links a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #6b7280;
+}
+.title-descriptions {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer-icon img {
+  margin-right: 20px;
 }
