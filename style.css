@@ -9,7 +9,7 @@
 /* navbar font style  */
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
 
-.inter-tight-navbar-font {
+.inter-tight-font {
   font-family: "Inter Tight", sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -71,7 +71,11 @@
   font-weight: bold;
   font-size: 4rem;
 }
+.banner {
+  gap: 150px;
+}
 .banner-content-color {
+  /* color: rgba(0, 0, 0, 0.5); */
   color: rgba(0, 0, 0, 0.5);
 }
 .banner-content {
@@ -87,4 +91,83 @@
   font-size: 1.2rem;
   margin-left: 200px;
   margin-right: 200px;
+}
+/* cards section  */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 66px;
+}
+
+.card-child {
+  width: 270px;
+  height: 132px;
+  color: #111111;
+  text-align: center;
+  margin-top: 30px;
+}
+.btn-primary {
+  width: 270px;
+  height: 50px;
+  background-color: #e95a08;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+/* trusted plant lover badge */
+.badge-image {
+  width: 400px;
+  height: 400px;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.badge-image {
+  position: absolute;
+  top: -180px;
+  right: -150px;
+  height: auto;
+}
+.trusted-badge-container {
+  display: flex;
+  gap: 200px;
+  margin-top: 200px;
+}
+/* latest deal  */
+.heading-title {
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+.title-description {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.title-description li {
+  margin-top: 15px;
+}
+
+.latest-deal-heading {
+  font-weight: bold;
+  font-size: 3.2rem;
+  margin-bottom: 5px;
+}
+.latest-deal-description {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.latest-deal {
+  text-align: center;
+  margin-left: 276px;
+  margin-right: 276px;
 }
